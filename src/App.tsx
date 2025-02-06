@@ -48,7 +48,7 @@ function App() {
       ease: "easeOut",
     },
   };
-  const { scrollYProgress } = useScroll();
+  const { scrollYProgress,scrollY } = useScroll();
   const opacityVariant = {
     opacity:scrollYProgress
   }
